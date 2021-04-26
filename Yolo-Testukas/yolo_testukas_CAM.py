@@ -19,7 +19,7 @@ import cv2
 
 frameW = 640
 frameH = 480
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     _, img = cap.read()

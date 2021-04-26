@@ -3,7 +3,7 @@ import math
 
 pointsList = []
 img = cv2.imread('Samples/tumbnail.jpg')
-img =cv2.resize(img, (640, 480))
+img = cv2.resize(img, (640, 480))
 
 def mousePoints(event, x, y, flags, params):
     if event == cv2.EVENT_LBUTTONDOWN:
