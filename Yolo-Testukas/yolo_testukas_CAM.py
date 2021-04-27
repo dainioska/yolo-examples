@@ -3,7 +3,7 @@
 
 # frameW = 640
 # frameH = 480
-# cap = cv2.VideoCapture('Samples/road_01.mp4')
+# cap = cv2.VideoCapture('../Samples/road_01.mp4')
 
 # while True:
 #     _, img = cap.read()

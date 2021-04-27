@@ -2,7 +2,7 @@ import cv2
 import math
 
 pointsList = []
-img = cv2.imread('Samples/tumbnail.jpg')
+img = cv2.imread('../Samples/tumbnail.jpg')
 img = cv2.resize(img, (640, 480))
 
 def mousePoints(event, x, y, flags, params):
