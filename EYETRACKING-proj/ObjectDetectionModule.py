@@ -1,5 +1,5 @@
 """
-Object detection module ORIGINAL
+Object detection module MODIFIED
 """
 import cv2
 
@@ -15,9 +15,11 @@ def findObjects(img, objectCascade, scaleF=1.1, minN =4):
     imgObjects =img.copy()
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     objects = objectCascade.detectMultiScale(imgGray, scaleF, minN)
+    objectsOut = []
     for (x, y, w, h) in objects:
         cv2.rectangle(imgObjects, (x, y), (x+w, y+h), (255, 0, 255), 2)
-       
+        objectsOut.append([[x, y, w, h],[w+h])
+
     return imgObjects, objects
 
 def main():
