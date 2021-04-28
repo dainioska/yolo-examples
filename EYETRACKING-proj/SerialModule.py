@@ -13,20 +13,23 @@ def initConnection(portNo, baudRate):
         print("Not Connected")
 def sendData(se, data, digits):
     myString = "$"
+    i = int(len(data))
     for d in data:
         myString += str(d).zfill(digits)
-        try:
-            se.write(myString.encode())
-            print(myString)
-        except:
-            print("Data transmision failed")
+        i = i-1
+        if i == 0:
+            try:
+                se.write(myString.encode())
+                print(myString)
+            except:
+                print("Data transmision failed")
 
 
 
 if __name__== "__main__":
     ser = initConnection("/dev/ttyUSB0", 9600)
     while True:
-        sendData(ser, [0, 255], 3)
-        time.sleep(1)
-        #sendData(ser, [0, 0], 3)
-        #time.sleep(1)
+         sendData(ser, [50, 255], 3)
+         time.sleep(1)
+         sendData(ser, [0, 0], 3)
+         time.sleep(1)

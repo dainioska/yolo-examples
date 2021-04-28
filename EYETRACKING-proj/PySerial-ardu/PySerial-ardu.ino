@@ -10,7 +10,7 @@ String receivedString;
 void setup() {
   pinMode(13, OUTPUT);
   Serial.begin(9600);
-  Serial.print("start");
+  Serial.print("start ");
 }
 
 void receivedData()
