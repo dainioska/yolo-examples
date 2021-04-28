@@ -6,7 +6,7 @@ import time
 
 def initConnection(portNo, baudRate):
     try:
-        ser = serial.Serial(portNo,baudRate)
+        ser = serial.Serial(portNo, baudRate)
         print("Device Connected")
         return ser
     except:
@@ -24,8 +24,9 @@ def sendData(se, data, digits):
 
 
 if __name__== "__main__":
-    ser = initConnection("/dev/ttyACM", 9600)
-    sendData(ser, [0, 255], 3)
-    time.sleep(1)
-    sendData(ser, [0, 0], 3)
-    time.sleep(1)
+    ser = initConnection("/dev/ttyUSB0", 9600)
+    while True:
+        sendData(ser, [0, 255], 3)
+        time.sleep(1)
+        #sendData(ser, [0, 0], 3)
+        #time.sleep(1)

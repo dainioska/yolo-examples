@@ -42,7 +42,7 @@ void receivedData()
 
 void loop() {
   receivedData();
-  if (valsRec[0] == 27) {
+  if (valsRec[1] == 255) {
     digitalWrite(13, HIGH);
   }
   else {
