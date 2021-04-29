@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0cdddd7a-0c0f-490e-8b4e-b557d0869cf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EYETRACKING-proj/PySerial-ardu/PySerial-ardu.ino" beforeDir="false" afterPath="$PROJECT_DIR$/EYETRACKING-proj/PySerial-ardu/PySerial-ardu.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EYETRACKING-proj/SerialModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/EYETRACKING-proj/SerialModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,50 +15,50 @@
     <session id="1064803079">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.2" value="6" />
-          <entry key="project.open.time.3" value="9" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.3" value="10" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="37" />
+          <entry key="py" value="44" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="Python" value="37" />
+          <entry key="Python" value="44" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="py" value="2783" />
+          <entry key="py" value="2903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="2783" />
+          <entry key="Python" value="2903" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EYETRACKING-proj/SerialModule.py">
+        <entry file="file://$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="587">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -90,8 +89,9 @@
         <option value="$PROJECT_DIR$/Yolo-Testukas/testukas.py" />
         <option value="$PROJECT_DIR$/Yolo-Testukas/ObjectDetectionModule.py" />
         <option value="$PROJECT_DIR$/Yolo-Testukas/SerialModule.py" />
-        <option value="$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py" />
         <option value="$PROJECT_DIR$/EYETRACKING-proj/SerialModule.py" />
+        <option value="$PROJECT_DIR$/EYETRACKING-proj/testas.py" />
+        <option value="$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py" />
       </list>
     </option>
   </component>
@@ -107,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,10 +119,22 @@
               <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
               <item name="EYETRACKING-proj" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yolo-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Yolo-Testukas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolo-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Yolo-Testukas" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,13 +142,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Aruco" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/EYETRACKING-proj" />
       <recent name="$PROJECT_DIR$/AngleFinder" />
       <recent name="$PROJECT_DIR$/Aruco/Markers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Aruco" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -152,7 +163,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SerialModule (1)">
+  <component name="RunManager" selected="Python.ObjectDetectionModule">
+    <configuration name="ObjectDetectionModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yolo-examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EYETRACKING-proj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SerialModule (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolo-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testukas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolo-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,11 +235,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Yolo-Testukas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EYETRACKING-proj" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yolo-Testukas/testukas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EYETRACKING-proj/testas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yolo_testukas_03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yolo_testukas_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolo-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,28 +260,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="yolo_testukas_04" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-examples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Yolo-Testukas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yolo-Testukas/ObjectDetectionModule.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,19 +270,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.yolo_testukas_04" />
-      <item itemvalue="Python.testukas" />
-      <item itemvalue="Python.yolo_testukas_03" />
       <item itemvalue="Python.SerialModule" />
       <item itemvalue="Python.SerialModule (1)" />
+      <item itemvalue="Python.ObjectDetectionModule" />
+      <item itemvalue="Python.yolo_testukas_01" />
+      <item itemvalue="Python.testas" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ObjectDetectionModule" />
+        <item itemvalue="Python.testas" />
+        <item itemvalue="Python.yolo_testukas_01" />
         <item itemvalue="Python.SerialModule (1)" />
         <item itemvalue="Python.SerialModule" />
-        <item itemvalue="Python.yolo_testukas_04" />
-        <item itemvalue="Python.yolo_testukas_03" />
-        <item itemvalue="Python.testukas" />
       </list>
     </recent_temporary>
   </component>
@@ -353,23 +364,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yolo-Testukas/testukas.py" />
     <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_03.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yolo-Testukas/ObjectDetectionModule.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -388,17 +385,38 @@
     <entry file="file://$PROJECT_DIR$/EYETRACKING-proj/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EYETRACKING-proj/SerialModule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EYETRACKING-proj/testas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EYETRACKING-proj/ObjectDetectionModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
         </state>
       </provider>
     </entry>
