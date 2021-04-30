@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import SerialModule as sm
 import ObjectDetectionModule as odm
-
 import time
 
 frameW = 640
@@ -10,6 +9,7 @@ frameH = 480
 path1 ='/home/rodney/Desktop/GIT_py/yolo-examples/EYETRACKING-proj/haarcascade_frontalface_default.xml'
 perrorLR, perrorUD = 0,0
 
+ser = sm.initConnection('/dev/ttyUSB0', 9600)
 cap = cv2.VideoCapture(0)
 faceCascade = cv2.CascadeClassifier(path1)
 
@@ -19,7 +19,7 @@ def findCenter(imgObjects, objects):
         x, y, w, h = objects[0][0]
         cx = x + w//2
         cy = y + h//2
-        print(cx)
+        #print(cx,cy)
         cv2.circle(imgObjects,(cx, cy), 2, (0, 255, 0), cv2.FILLED)
         ih, iw, ic = imgObjects.shape
         cv2.line(imgObjects, (iw//2, cy), (cx, cy), (0, 255, 0), 1)
@@ -36,15 +36,16 @@ def trackObject(cx, cy, w, h):
         # Left and Rigth
         errorLR = w//2 - cx
         posX = kLR[0] * errorLR + kUD[1] * (errorLR - perrorLR)
-        posx = int(np.integer(posX, [-w//2, w//2], [20, 160]))
+        posX = int(np.interp(posX, [-w//2, w//2], [20, 160]))
         perrorLR = errorLR
 
         # Up and Down
         errorUD = h//2 - cy
         posY = kUD[0] * errorUD + kUD[1] * (errorUD - perrorUD)
-        posY = int(np.integer(posY, [-h//2, h//2], [20, 160]))
+        posY = int(np.interp(posY, [-h//2, h//2], [20, 160]))
         perrorUD = errorUD
-
+        
+        # print(posX,posY)
         sm.sendData(ser, [posX, posY], 3)
 
 

@@ -1,5 +1,5 @@
 """
-pyserial module MODIFIED
+pyserial module modified LED on/off or turn servo X/Y
 """
 import  serial
 import time
@@ -28,8 +28,9 @@ def sendData(se, data, digits):
 
 if __name__== "__main__":
     ser = initConnection("/dev/ttyUSB0", 9600)
-    while True:
-         sendData(ser, [50, 255], 3)
-         time.sleep(1)
-         sendData(ser, [0, 0], 3)
-         time.sleep(1)
+    # while True:
+    #      # sendData(ser, [50, 255], 3)  # test LED on/off
+    #      sendData(ser, [50, 50], 3)  # test SERVO X/Y
+    #      time.sleep(1)
+    #      sendData(ser, [0, 0], 3)
+    #      time.sleep(1)
