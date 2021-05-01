@@ -1,3 +1,7 @@
+"""
+aruco pictures example from murtasa
+testing ok 2021-04-20
+"""
 import cv2
 import cv2.aruco as aruco
 import numpy as np 

@@ -1,4 +1,8 @@
-# Angle TRAINER files from murtaza
+"""
+angle trainer example from murtasa
+NOT FINISHED------------------------------
+"""
+
 import cv2
 import numpy as np
 

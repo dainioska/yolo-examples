@@ -1,3 +1,7 @@
+"""
+object tracking example from murtasa
+testing ok 2021-04-22
+"""
 import cv2
 
 cap = cv2.VideoCapture(0)

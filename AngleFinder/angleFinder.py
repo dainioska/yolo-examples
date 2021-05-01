@@ -1,3 +1,7 @@
+"""
+anglefinder example from murtaza
+testing OK 2021-04-22
+"""
 import cv2
 import math
 
