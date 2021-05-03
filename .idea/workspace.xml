@@ -4,8 +4,7 @@
     <list default="true" id="0cdddd7a-0c0f-490e-8b4e-b557d0869cf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceDetection-project/FaceDetectionBasics.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetection-project/FaceDetectionBasics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceDetection-project/Video/arm_01.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yolo-Testukas/SerialModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yolo-Testukas/SerialModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceDetection-project/FaceDetectionModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetection-project/FaceDetectionModule.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +16,13 @@
     <session id="1064803079">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.2" value="10" />
+          <entry key="project.open.time.2" value="11" />
           <entry key="project.open.time.3" value="14" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,7 +30,7 @@
           <entry key="jpg" value="1" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="73" />
+          <entry key="py" value="76" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -39,7 +38,7 @@
         <counts>
           <entry key="Image" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="73" />
+          <entry key="Python" value="76" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -47,20 +46,20 @@
         <counts>
           <entry key="dummy" value="41" />
           <entry key="md" value="113" />
-          <entry key="py" value="4833" />
+          <entry key="py" value="4851" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="113" />
           <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="4833" />
+          <entry key="Python" value="4851" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,9 +91,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/EYETRACKING-proj/EyeTracking.py" />
         <option value="$PROJECT_DIR$/FaceDetection-project/main.py" />
+        <option value="$PROJECT_DIR$/Yolo-Testukas/SerialModule.py" />
         <option value="$PROJECT_DIR$/FaceDetection-project/FaceDetectionModule.py" />
         <option value="$PROJECT_DIR$/FaceDetection-project/FaceDetectionBasics.py" />
-        <option value="$PROJECT_DIR$/Yolo-Testukas/SerialModule.py" />
       </list>
     </option>
   </component>
@@ -116,6 +115,11 @@
             <path>
               <item name="yolo-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolo-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="FaceDetection-project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FaceDetectionModule">
+  <component name="RunManager" selected="Python.FaceDetectionBasics">
     <configuration name="FaceDetectionBasics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolo-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,8 +271,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FaceDetectionModule" />
         <item itemvalue="Python.FaceDetectionBasics" />
+        <item itemvalue="Python.FaceDetectionModule" />
         <item itemvalue="Python.yolo_trainer" />
         <item itemvalue="Python.trackingMain" />
         <item itemvalue="Python.arucoModule" />
@@ -291,7 +295,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14812863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14812863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -429,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceDetection-project/FaceDetectionModule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yolo-Testukas/SerialModule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -450,10 +447,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection-project/FaceDetectionModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#30#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FaceDetection-project/FaceDetectionBasics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="-262">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="e#57#67#0" expanded="true" />
           </folding>
