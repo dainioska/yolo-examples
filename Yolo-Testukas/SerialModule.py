@@ -24,7 +24,7 @@ def sendData(se, data, digits):
 
 
 if __name__== "__main__":
-    ser = initConnection("/dev/ttyACM", 9600)
+    ser = initConnection("/dev/ttyUSB0", 9600)
     sendData(ser, [0, 255], 3)
     time.sleep(1)
     sendData(ser, [0, 0], 3)
