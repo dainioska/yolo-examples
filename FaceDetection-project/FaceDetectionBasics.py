@@ -1,5 +1,5 @@
 """
-fece detection examples (mediapipe) from murtasa
+face detection examples (mediapipe) from murtasa
 """
 import cv2
 import mediapipe as mp

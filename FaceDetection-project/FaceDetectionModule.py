@@ -7,7 +7,7 @@ import time
 
 class FaceDetector():
 
-    def  __init__(self, minDetectionCon= 0.5):
+    def  __init__(self, minDetectionCon = 0.5):
         self.minDetectionCon = minDetectionCon
         self.mpFaceDetection = mp.solutions.face_detection
         self.mpDraw = mp.solutions.drawing_utils
@@ -42,17 +42,17 @@ class FaceDetector():
         # Top Left x,y
         cv2.line(img, (x, y), (x + l, y), (255, 0, 255), t)
         cv2.line(img, (x, y), (x , y + l), (255, 0, 255), t)
-        # Top Rigth x1,y
+        # Top Right x1,y
         cv2.line(img, (x1, y), (x1 - l, y), (255, 0, 255), t)
         cv2.line(img, (x1, y), (x1, y + l), (255, 0, 255), t)
         # Bottom Left x,y1
         cv2.line(img, (x, y1), (x + l, y1), (255, 0, 255), t)
         cv2.line(img, (x, y1), (x, y1 - l), (255, 0, 255), t)
-        # Bottom Rigth x1,y1
+        # Bottom Right x1,y1
         cv2.line(img, (x1, y1), (x1 - l, y1), (255, 0, 255), t)
         cv2.line(img, (x1, y1), (x1, y1 - l), (255, 0, 255), t)
 
-        return  img
+        return img
 
 def main():
     cap = cv2.VideoCapture("Video/04.mp4")
