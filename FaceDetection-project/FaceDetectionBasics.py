@@ -1,5 +1,6 @@
 """
 face detection examples (mediapipe) from murtasa
+testing ok 2021-05-02
 """
 import cv2
 import mediapipe as mp

@@ -1,5 +1,5 @@
 """
-pose estimation examples (mediapipe) from murtasa
+pose module
 testing ok 2021-05-04
 """
 import cv2

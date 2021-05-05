@@ -1,17 +1,19 @@
 """
 angle trainer example from murtasa
-NOT FINISHED------------------------------
+testing
 """
 
 import cv2
 import numpy as np
+import PoseModule as pm
 
-cap = cv2.VideoCapture("Samples/arm_01.mp4")
+cap = cv2.VideoCapture("../Samples/arm_01.mp4")
+detector = pm.poseDetector()
 
 while True:
     _, img = cap.read()
     img = cv2.resize(img, (640, 480))
-    #imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
     cv2.imshow("Image",img)
     
