@@ -12,6 +12,7 @@
 #     if cv2.waitKey(1) & 0xFF == ord('q'):
 #         break
 
+# cap.release()
 # cv2.destroyAllWindows()
 
 # CAM test code
@@ -19,7 +20,7 @@ import cv2
 
 frameW = 640
 frameH = 480
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(1)
 
 while True:
     _, img = cap.read()
@@ -28,4 +29,5 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
+cap.release()
 cv2.destroyAllWindows()
