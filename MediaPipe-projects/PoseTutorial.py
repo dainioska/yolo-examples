@@ -32,7 +32,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
 
     while cap.isOpened():
         ret, frame = cap.read()
-        # frame = cv2.resize(img, (640, 480))
+        frame = cv2.resize(frame, (640, 480))
 
         image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         image.flags.writeable = False
