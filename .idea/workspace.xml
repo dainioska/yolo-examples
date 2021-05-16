@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0cdddd7a-0c0f-490e-8b4e-b557d0869cf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediaPipe-projects/PoseTutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/MediaPipe-projects/PoseTutorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +15,29 @@
     <session id="1064803079">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.2" value="13" />
-          <entry key="project.open.time.3" value="24" />
-          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.3" value="25" />
+          <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="1" />
+          <entry key="jpg" value="3" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="104" />
+          <entry key="py" value="115" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="2" />
+          <entry key="Image" value="4" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="104" />
+          <entry key="Python" value="115" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -45,14 +45,14 @@
         <counts>
           <entry key="dummy" value="43" />
           <entry key="md" value="113" />
-          <entry key="py" value="7950" />
+          <entry key="py" value="8651" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="113" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="7950" />
+          <entry key="Python" value="8651" />
         </counts>
       </usages-collector>
     </session>
@@ -60,13 +60,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MediaPipe-projects/PoseTutorial.py">
+        <entry file="file://$PROJECT_DIR$/BodyPix-project/startukas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="48" column="95" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
+            <state relative-caret-position="220">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
-                <marker date="1620375699091" expanded="true" signature="299:551" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BodyPix-project/testukas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -108,16 +117,18 @@
         <option value="$PROJECT_DIR$/PoseEstimation-project/PoseEstimationMin.py" />
         <option value="$PROJECT_DIR$/AiTrainer-project/Aitrainer.py" />
         <option value="$PROJECT_DIR$/PoseEstimation-project/PoseModule.py" />
-        <option value="$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py" />
         <option value="$PROJECT_DIR$/MediaPipe-projects/PoseTutorial.py" />
+        <option value="$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py" />
+        <option value="$PROJECT_DIR$/BodyPix-project/testukas.py" />
+        <option value="$PROJECT_DIR$/BodyPix-project/startukas.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
-    <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+    <option name="y" value="27" />
+    <option name="width" value="950" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,7 +146,17 @@
             <path>
               <item name="yolo-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="AiTrainer-project" type="462c0819:PsiDirectoryNode" />
+              <item name="BodyPix-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolo-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolo-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolo-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Yolo-Testukas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,49 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PoseTutorial">
-    <configuration name="Aitrainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-examples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiTrainer-project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiTrainer-project/Aitrainer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FaceDetectionBasics" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-examples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FaceDetection-project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FaceDetection-project/FaceDetectionBasics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.startukas">
     <configuration name="PoseModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolo-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,6 +236,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="startukas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yolo-examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BodyPix-project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BodyPix-project/startukas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testukas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yolo-examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BodyPix-project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BodyPix-project/testukas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yolo_testukas_CAM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolo-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,19 +300,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FaceDetectionBasics" />
       <item itemvalue="Python.yolo_testukas_CAM" />
-      <item itemvalue="Python.Aitrainer" />
       <item itemvalue="Python.PoseModule" />
       <item itemvalue="Python.PoseTutorial" />
+      <item itemvalue="Python.startukas" />
+      <item itemvalue="Python.testukas" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PoseTutorial" />
+        <item itemvalue="Python.startukas" />
+        <item itemvalue="Python.testukas" />
         <item itemvalue="Python.yolo_testukas_CAM" />
+        <item itemvalue="Python.PoseTutorial" />
         <item itemvalue="Python.PoseModule" />
-        <item itemvalue="Python.Aitrainer" />
-        <item itemvalue="Python.FaceDetectionBasics" />
       </list>
     </recent_temporary>
   </component>
@@ -309,9 +330,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14812863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14812863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,22 +374,9 @@
     <entry file="file://$PROJECT_DIR$/Aruco-project/Markers/pic1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/tumbnail.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yolo-Testukas/testukas.py" />
-    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_03.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/EyeTracking-project/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EyeTracking-project/SerialModule.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -463,16 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceDetection-project/FaceDetectionModule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="54" column="15" lean-forward="true" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
-          <folding>
-            <element signature="e#30#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AiTrainer-project/Aitrainer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -488,19 +487,60 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MediaPipe-projects/PoseTutorial/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MediaPipe-projects/PoseTutorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="48" column="95" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection-project/FaceDetectionModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="54" column="15" lean-forward="true" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
           <folding>
-            <marker date="1620375699091" expanded="true" signature="299:551" ph="..." />
+            <element signature="e#30#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BodyPix-project/startas/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_02.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_03.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/tumbnail.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BodyPix-project/testukas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yolo-Testukas/yolo_testukas_CAM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BodyPix-project/startukas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

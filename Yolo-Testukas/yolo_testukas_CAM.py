@@ -20,12 +20,13 @@ import cv2
 
 frameW = 640
 frameH = 480
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     _, img = cap.read()
     img = cv2.resize(img, (frameW, frameH))
-    cv2.imshow("Image",img)
+    print(img.shape)
+    cv2.imshow("Image", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
