@@ -16,7 +16,7 @@ while True:
 
 
     #cv2.imshow("Image",img)
-    #cv2.imshow("Gray",imgGray)
+    #cv2.imshow("Gray",imgGray)q
     #cv2.imshow("Blur",imgBlur)
     cv2.imshow("Canny",imgCanny)
     cv2.imshow("Dilation",imgDil)
